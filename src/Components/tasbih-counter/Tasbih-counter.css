@@ -86,3 +86,15 @@
      flex-direction: column;
      align-items: center ;
 }
+
+
+@media (max-width: 600px) {
+     .tasbih_wrapper{
+          flex-direction: column-reverse;
+     }
+
+     .back-particle, .back-particle-two{
+          width: 90px;
+          height: 190px;
+     }
+}
