@@ -87,6 +87,24 @@
      align-items: center ;
 }
 
+@media (max-width: 900px) {
+     .tasbih_wrapper{
+          flex-direction: column-reverse;
+     }
+
+     .back-particle, .back-particle-two{
+          width: 180px;
+          height: 290px;
+     }
+
+     h1{
+          font-size: 35px;
+     }
+
+     .tasbih_wrapper_container{
+          height: 70%;
+     }
+}
 
 @media (max-width: 600px) {
      .tasbih_wrapper{
@@ -96,5 +114,17 @@
      .back-particle, .back-particle-two{
           width: 90px;
           height: 190px;
+     }
+
+     h1{
+          font-size: 20px;
+     }
+
+     .tasbih_wrapper{
+          margin: 40px;
+     }
+
+     .tasbih_wrapper_container{
+          height: 73%;
      }
 }
