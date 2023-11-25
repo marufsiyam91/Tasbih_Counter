@@ -1,0 +1,88 @@
+.tasbih_counter_container{
+     width: 100%;
+     height: 100vh;
+     background: rgb(218,218,218);
+     background: linear-gradient(90deg, rgba(134,224,104) 50%, rgba(218,218,218,1) 50%, rgba(255,255,255,1) 50%);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.back-particle{
+     position: absolute;
+     width: 350px;
+     height: 250px;
+     background: #212121;
+     bottom: -25px;
+     right: -25px;
+     border-radius: 0 5px 35px 15px;
+}
+
+.back-particle-two{
+     position: absolute;
+     width: 350px;
+     height: 250px;
+     background: #212121;
+     top: -25px;
+     left:  -25px;
+     border-radius: 35px 5px 0  15px;
+}
+
+.tasbih_wrapper_container{
+     width: 72%;
+     height: 76%;
+     position: relative;
+}
+
+.Tasbih-main-content{
+     width: 100%;
+     height: 100%;
+     background: rgb(255,255,255);
+     background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.7595413165266106) 50%, rgb(248, 248, 248) 50%);
+     backdrop-filter: blur(50px);
+     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+     border-radius: 15px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     z-index: 1;
+     position: relative;
+}
+
+.tasbih_wrapper{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin: 60px;
+}
+
+.alhamdulillah_wrapper{
+     margin: 0 60px;
+}
+
+.tasbih_count_btn_container{
+     display: flex;
+     justify-content: center;
+}
+
+.tasbih_count_btn_container button{
+     padding: 8px 18px;
+     border-radius: 6px;
+     margin: 0 10px;
+     border: 1.8px solid #212121;
+     font-weight: 600;
+     transition: all 0.3s ease ;
+}
+
+.tasbih_count_btn_container button:hover{
+     border: 1.8px solid rgb(96, 212, 57);
+     border-radius: 16px;
+}
+
+.subhanAllah_wrapper, .alhamdulillah_wrapper, .allahuAkbar_wrapper{
+     display: flex;
+     flex-direction: column;
+     align-items: center ;
+}
